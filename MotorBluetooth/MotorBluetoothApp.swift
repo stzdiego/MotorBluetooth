@@ -12,6 +12,8 @@ struct MotorBluetoothApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(width: 500, height: 300)
         }
+        .windowResizability(.contentSize)
     }
 }
